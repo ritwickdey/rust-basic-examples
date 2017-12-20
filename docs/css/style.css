@@ -73,3 +73,7 @@ body {
   height: 10vmin;
   width: 10vmin;
 }
+
+.rust {
+  color: #b7410e;
+}
