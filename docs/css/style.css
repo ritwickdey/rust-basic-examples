@@ -2,12 +2,74 @@
 body {
   padding: 0;
   margin: 0;
-  position: relative;
+  background: #3498db;
+}
+body {
+  overflow: hidden;
+}
+.header {
+  text-align: center;
+}
+.header-image {
+  display: inline-block;
+  margin-top: 10vh;
+  background: none;
+  z-index: 2;
+}
+.header-image img {
+  height: 35vmin;
+  width: 35vmin;
 }
 
-.header {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.header-text {
+  margin-top: 10px;
+}
+.header-text .title {
+  font-family: "Roboto Slab", serif;
+  font-size: 5vmax;
+}
+.header-text .author {
+  font-family: "Roboto Slab", serif;
+  font-size: 3vmax;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.header-text .author .github {
+  color: #34495e;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.content {
+  text-align: center;
+}
+
+.content .repo {
+  text-align: center;
+  line-height: 5vh;
+  font-size: 3vmax;
+  padding: 10px 5px;
+  border: 2px solid black;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 5vmin;
+  font-family: "Josefin Sans", sans-serif;
+  cursor: pointer;
+}
+
+.social {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.twitter,
+.facebook {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.twitter img,
+.facebook img {
+  height: 10vmin;
+  width: 10vmin;
 }
