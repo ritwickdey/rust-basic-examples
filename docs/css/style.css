@@ -4,9 +4,7 @@ body {
   margin: 0;
   background: #3498db;
 }
-body {
-  overflow: hidden;
-}
+
 .header {
   text-align: center;
 }
